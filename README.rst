@@ -14,7 +14,9 @@ Also, your .vim folder should be empty. If you have one, rename it or move to a 
 1) Install the required dependencies:
 
 sudo apt-get install curl vim exuberant-ctags git ack-grep
+
 sudo pip install pep8 flake8 pyflakes isort yapf
+
 2) Download the .vimrc file and place it in your linux home folder.
 
 3) Open vim and it will continue the installation by itself. Wait for it to finish... and done! You now have your new shiny powerful vim :)
@@ -35,7 +37,10 @@ If you come from an older version of fisa-vim-config and want to upgrade it to t
 
 3) Open vim and run:
 
-:PlugClean 
+:PlugClean
+
 :PlugInstall
+
 :PlugUpdate
+
 This will remove plugins no longer used, install any new plugins, and update the existing ones to the last versions. It can be useful to look at the changelog.
